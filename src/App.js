@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'; // import CSS file
+import Snippet from './components/Snippet';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <main className="main-content">
         <h1>Welcome to DevHive!</h1>
         <p>We're glad you're here.</p>
+        <Snippet />
       </main>
       <footer className="footer">
         <p>&copy; 2023 DevHive. All rights reserved.</p>
